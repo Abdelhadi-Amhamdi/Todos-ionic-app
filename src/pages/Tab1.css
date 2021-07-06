@@ -1,0 +1,63 @@
+.tab1img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+h1{
+    position: absolute !important;
+    top: 10px;
+    padding: 20px;
+    width: 90%;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: black 0px 3px 2px;
+    font-weight: bolder !important;
+    font-size: 2.5rem !important;
+    color: white;
+}
+
+h4 {
+    z-index: 4;
+    font-size: 2rem !important;
+    color: black;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    font-weight: bold !important;
+}
+ion-tab-bar.md.hydrated {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    background: #000000d6;
+}
+
+ion-tab-button {
+    background: transparent;
+}
+
+.my-card  {
+    position: absolute;
+    top: 330px;
+    display: flex;
+    background-color: #000000d6;
+}
+.card-icon {
+    font-size: 4rem;
+    color: white;
+}
+.content {
+    padding: 15px !important;
+    line-height: 1.5;
+    color: white;
+}
+.content .title {
+    margin-bottom: 10px;
+    color: white;
+}
+

@@ -1,0 +1,46 @@
+.Ringing{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 250px;
+}
+.card{
+    height: 200px;
+    padding: 80px 0px;
+    text-align: center;
+    box-shadow: black 1px 4px 16px;
+}
+.card #iconR {
+    font-size: 30pt;
+    margin-bottom: 10px;
+    animation: animate 1.2s linear infinite ;
+}
+.card h1 {
+    margin-bottom: 10px;
+}
+.card #stb{
+    position: absolute;
+    top: -70px;
+    right: 10px;
+    background-color: transparent!important;
+    border: none;
+}
+#alarcard{
+    box-shadow: black 1px 4px 16px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons .btn{
+    box-shadow: gray 1px 4px 2px;
+}
+.buttons .btn:hover{
+    box-shadow: none;
+    border: none;
+}
+@keyframes animate
+{
+    0%{transform: rotate(-50deg);}
+    50%{transform: rotate(50deg);}
+    100%{transform: rotate(-50deg);}
+}
